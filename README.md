@@ -33,3 +33,30 @@ A 2D retro-style arcade web game inspired by traditional Filipino street tag gam
 ---
 
 ## 🛠️ Project Structure
+habol-habulan-game/
+├── index.html       # Single-file bundled game (Canvas, CSS, and JS engine)
+└── README.md        # Project documentation and legal notice
+
+---
+
+## 🚀 How to Run Locally
+
+### Option A: VS Code Live Server
+1. Open the project folder in **VS Code**.
+2. Install the **Live Server** extension (`ms-vscode.live-server`).
+3. Right-click `index.html` and select **Open with Live Server**.
+
+### Option B: Standalone Browser
+Double-click `index.html` to open directly in any modern web browser (Chrome, Firefox, Edge, Safari).
+
+---
+
+## 🕹️ Controls
+
+| Action | Keyboard | Touch / Mobile |
+| :--- | :--- | :--- |
+| **Movement** | `WASD` or `Arrow Keys` | Virtual On-Screen D-Pad |
+| **Special Ability** | `Spacebar` | On-Screen Ability Button |
+| **Throw Slipper** | `F` | On-Screen Action Button |
+| **Pause Game** | `P` or `Esc` | Pause Icon |
+| **Restart** | `R` | Game Over Screen |
